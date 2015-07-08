@@ -1,4 +1,5 @@
-#The parse function takes as input the filepath of the file ("Prescription.txt") and produces as output a dictionary
+#The parse function takes as input the filepath of the file ("Prescription.txt") 
+#and produces as output a dictionary
 
 def parse(filepath):
     contents = open(filepath, 'r')
@@ -40,7 +41,8 @@ prescription = parse(filepath)
 email_msg = MIMEMultipart()
 email_msg['From'] = 'from email'
 
-#If sending a text message notification instead of an email, then 'receiving email' should be the mobile service provider's email to SMS Gateway
+#If sending a text message notification instead of an email, then 'receiving email' 
+#should be the mobile service provider's email to SMS Gateway
   #e.g., '10-digit phone number'@txt.att.net; '10-digit phone number'@vtext.com 
   
 email_msg['To'] = 'receiving email'
