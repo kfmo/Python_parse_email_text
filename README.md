@@ -2,12 +2,12 @@
 
 Appointment Date: 6/30/2015
 
-Physician: Dr. Rodwell
+Physician: Dr. Robinson
 
 Medication: Lasix  
 Dose: 40mg  
 Directions: One tablet three times daily
 
 Pharmacy: CVS  
-Address: Mission Blvd, Hayward  
+Address: Mission Blvd, San Francisco  
 Pick-up Date: 7/1/2015
