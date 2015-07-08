@@ -1,4 +1,4 @@
-#The parse function takes as input the filepath of the file and produces as output a dictionary
+#The parse function takes as input the filepath of the file ("Prescription.txt") and produces as output a dictionary
 
 def parse(filepath):
     contents = open(filepath, 'r')
